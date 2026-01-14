@@ -1,0 +1,10 @@
+# a=input("Enter your Name-->")
+# b=int(input("Enter your class-->"))
+# c=int(input("Enter your Roll NO.-->"))
+# d=int(input("Enter your Chemistry Marks-->"))
+# e=int(input("Enter your Biology Marks-->"))
+# f=int(input("Enter your Physics Marks-->"))
+# g=int(input("Enter your Maths Marks-->"))
+# h=int(input("Enter your Computer Science Marks-->"))
+# print((d+e+f+g+h)/500*100)
+
