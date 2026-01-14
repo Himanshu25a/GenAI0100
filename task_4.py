@@ -45,7 +45,6 @@
 
 
 
-# n=(int(input("Enter the Number:")))
 # for i in range(0,101):
 #     print (i) 
 #     if i%3==0:
@@ -61,10 +60,10 @@
 # # for i in range(0,101):
 # #     print (i) 
 # if n%3==0:
-#        print("Fizz")
+#         print("Fizz")
 # elif n%5==0:
-#        print("Buzz")
-# elif n%3 and n%5 ==0:
-#        print("Fizz Buzz")
+#         print("Buzz")
+# elif n%3 and i%5 ==0:
+#         print("Fizz Buzz")
 # else:
-#       print("Not Divisible")
+#         print("Not Divisible")
