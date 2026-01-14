@@ -33,13 +33,25 @@
 
     
 
-# n=int(input("Enter The Number:"))
+# num=int(input("Enter The Number:"))
+# original = num
+# reverse = 0
+
+# while num > 0:
+#     digit = num % 10
+#     reverse = reverse * 10 + digit
+#     num //= 10
+
+# if original == reverse:
+#     print("Palindrome number")
+# else:
+#     print("Not a palindrome number")
 
 
 
-
-
-
+n=int(input("No: "))
+print(n%2)
+print(n/2)
 
 
 
