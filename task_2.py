@@ -46,7 +46,7 @@
 
 # a=input("Enter The text 1-->")
 # b=input("Enter The text 2-->")
-# # if a==b:
+# if a==b:
 #     print("Equal Text")
 # elif a!=b:
 #     print("Not Equal")
