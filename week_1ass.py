@@ -168,4 +168,68 @@
 # l1=[i for i in range(0,n) if i%2==0 ]
 # print("Even Numbers are:",l1)
 
+# Q18
+# numbers = [10, 25, 30, 25, 40, 55, 60, 25, 70, 80]
+# print("List:", numbers)
+# if 25 in numbers:
+#     print(" 25 exists in the list")
+# else:
+#     print(" 25 does not exist in the list")
+# print(" Total length of the list:", len(numbers))
+# print("Total occurrences of 25:", numbers.count(25))
+# print("Traversing each element:")
+# for element in numbers:
+#     print(element)
+# print(" Even numbers in the list:")
+# for element in numbers:
+#     if element % 2 == 0:
+#         print(element)
 
+# Q19
+
+# text = input("Enter a string (10 to 19 words): ")
+# words = text.split()
+# if len(words) < 10 or len(words) > 19:
+#     print("❌ Please enter between 10 and 19 words only.")
+# else:
+#     print("\n1) Full String:")
+#     print(text)
+#     print("Length of string (characters):", len(text))
+#     cleaned = text.replace(" ", "").lower()
+#     if cleaned == cleaned[::-1]:
+#         print("\n2) The string IS a palindrome.")
+#     else:
+#         print("\n2) The string is NOT a palindrome.")
+#     middle_index = len(words) // 2
+#     print("\n3) Middle word:", words[middle_index])
+#     print("\n4) Second last word:", words[-2])
+
+# Q20
+
+# print("Welcome to Calci:")
+# print("1. Power")
+# print("2. Sum")
+# print("3. Sub")
+# print("4. Multiple")
+# choice = int(input("Enter your choice (1-4): "))
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# if choice == 1:
+#     print("Result (Power):", num1 ** num2)
+# elif choice == 2:
+#     print("Result (Sum):", num1 + num2)
+# elif choice == 3:
+#     print("Result (Sub):", num1 - num2)
+# elif choice == 4:
+#     print("Result (Multiple):", num1 * num2)
+# else:
+#     print("Invalid choice!")
+
+# Q21
+
+# x= ['abc', 'xyz', 'aba', '1221']
+# count = 0
+# for s in x:
+#     if len(s) >= 2 and s[0] == s[-1]:
+#         count += 1
+# print(count)
